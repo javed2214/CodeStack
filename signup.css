@@ -1,0 +1,46 @@
+.signup
+{
+	padding: 5px 5px 8px 5px;
+	border: none;
+	text-align: center;
+	width: 205;
+	border-radius: 7px;
+	background: rgb(234,128,21);
+	box-shadow: 2px 2px 2px 2px;
+	font-family: cambria;
+	font-size: 20px;
+	font-weight: bold;
+}
+.button
+{
+	padding:9px;
+	text-align: center;
+	width: 110;
+	font-family: calibri;
+	font-size: 16px;
+	background: rgb(0,128,255);
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+}
+.button:hover
+{
+	background: gray;
+	color: black;
+}
+form .alreadyregistered
+{
+	font-family: calibri;	
+}
+.alreadyregistered a
+{
+	text-decoration: none;
+	font-family: clibri;
+	font-weight: bold;
+}
+.inputstyle
+{
+	padding: 6px;
+	text-align: center;
+	border: 0.2px solid gray;
+}

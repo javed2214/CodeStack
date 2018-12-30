@@ -1,0 +1,151 @@
+.programbutton a
+{
+
+    text-decoration: none;
+    color: white;
+    padding:10px 44px 10px 44px;
+    font-family: cambria;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    width:30;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(0,128,255);
+}
+
+div #basics
+{
+    width: 25;
+}
+div #functions
+{
+    padding: 10px 30px 10px 30px;
+    background: red;
+}
+div #strings
+{
+     padding: 10px 40px 10px 40px;
+     background: green;
+}
+div #arrays
+{
+    background: rgb(255,130,4);
+}
+div #pointers
+{
+    padding: 10px 36px 10px 36px;
+    background: rgb(117,56,139);
+}
+div #structures
+{
+    padding: 10px 29px 10px 29px;
+    background: brown;
+}
+div #patterns
+{
+    padding: 10px 37px 10px 37px;
+    background: rgb(185,137,26);
+}
+div #dma
+{
+    padding: 10px 50px 10px 50px;
+    background: gray;
+}
+div #filehandling
+{
+    background-color: rgb(0,0,106);
+    padding: 10px 18px 10px 18px;
+}
+div #recursion
+{
+    background-color: rgb(4,104,104);
+    padding: 10px 30px 10px 30px;
+}
+div #linkedlist
+{
+    padding: 10px 28px 10px 28px;
+    background: green;
+}
+div #stack
+{
+    padding: 10px 50px 10px 50px;
+}
+div #queue
+{
+    padding: 10px 45px 10px 45px;
+    background-color: rgb(4,104,104);
+}
+div #tree
+{
+    padding: 10px 51px 10px 51px;
+    background: red;
+}
+div #sorting
+{
+    padding: 10px 39px 10px 39px;
+    background: rgb(117,56,139);
+}
+#basics:hover
+{
+    background: rgb(111,208,255);
+}
+#functions:hover
+{
+    background-color: rgb(255,140,140);
+}
+#stl:hover
+{
+    background-color: rgb(255,140,140);
+}
+#pointers:hover
+{
+    background-color: rgb(194,150,211);
+}
+#arrays:hover
+{
+    background-color: rgb(255,186,117);
+}
+#dma:hover
+{
+    background-color: rgb(181,181,181);
+}
+#filehandling:hover
+{
+    background-color: rgb(83,83,255);
+}
+#sorting:hover
+{
+    background-color: rgb(194,150,211);
+}
+#patterns:hover
+{
+    background-color: rgb(233,190,92);
+}
+#strings:hover
+{
+    background-color: rgb(0,193,97);
+}
+#structures:hover
+{
+    background-color: rgb(255,119,119);
+}
+#recursion:hover
+{
+    background: rgb(6,159,159);
+}
+#tree:hover
+{
+    background-color: rgb(255,140,140);
+}
+#linkedlist:hover
+{
+    background-color: rgb(0,193,97);
+}
+#stack:hover
+{
+    background: rgb(111,208,255);
+}
+#queue:hover
+{
+    background-color: rgb(181,181,181);
+}

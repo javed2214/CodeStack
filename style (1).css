@@ -1,0 +1,164 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+nav
+{
+	width: 100%;
+	background: #202c45;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+nav h1
+{
+	margin: 0;
+	padding: 0;
+	padding: 15px 20px;
+	float: left;
+}
+nav h1 a
+{
+	color: #fff;
+	text-decoration: none;
+}
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+nav ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 30px;
+	transition: 0.3s;
+}
+nav ul li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li:hover
+{
+	background: #f2184f;
+	cursor: pointer;
+}
+.responsive-bar
+{
+	width: 100%;
+	background: #202c45;
+	padding: 30px 10px;
+	box-sizing: border-box;
+	display: none;
+	margin-top: 2px;
+}
+.responsive-bar h3
+{
+	margin: 0;
+	padding: 3px 0;
+	color: #fff;
+	float: left;
+	font-family: Cambria;
+	font-size: 22px;
+}
+.responsive-bar h3 a
+{
+	margin: 0;
+	text-decoration: none;
+	color: #fff;
+}
+.responsive-bar h4
+{
+	margin: 0;
+	padding: 3px 0;
+	color: #fff;
+	float: right;
+	padding: 5px 10px;
+	background: #f2184f;
+	text-transform: uppercase;
+	font-family: calibri;
+	cursor: pointer;
+}
+.container
+{
+	padding: 10px 10px 10px 10px;
+	background: #ccc;
+	font-family: calibri;
+	font-size: 20px;
+	margin: 5px 5px 5px 5px;
+}
+.queryContainer
+	{
+		margin-bottom: 28px;
+	}
+.footerquery
+	{
+		font-family: calibri;
+		text-align: center;
+		margin-top: 170px;
+	}
+
+.footerindex
+	{
+		font-family: calibri;
+		text-align: center;
+		margin-top: 10px;
+	}
+	
+
+@media (max-width: 900px)
+{
+	nav
+	{
+		display: none;
+		padding: 0;
+	}
+	.responsive-bar
+	{
+		display: block;
+	}
+	nav h1
+	{
+		display: block;
+		float: none;
+	}
+	nav ul
+	{
+		float: none;
+	}
+	nav ul li
+	{
+		display: block;
+		text-align: center;
+		background: #141e33;
+		padding: 15px 20px;
+		border-bottom: 1px solid rgbs(255, 255, 255, 1);
+	}
+	h1.brand
+	{
+		display: none;
+	}
+	.container
+	{
+		padding: 3px 5px 5px 8px;
+		background: #ccc;
+		font-family: calibri;
+		font-size: 13.5px;
+		margin: 5px 0;
+	}
+	.footerquery
+	{
+    	font-family: calibri;
+		text-align: center;
+		font-size: 11px;
+		margin: 0;	
+	}
+	.queryContainer
+	{
+		margin-bottom: 0;
+	}
+}
